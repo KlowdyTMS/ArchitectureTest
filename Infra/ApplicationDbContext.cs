@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ArchitectureTest.Model.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace ArchitectureTest;
+namespace ArchitectureTest.Infra;
 
 public class ApplicationDbContext : DbContext
 {
